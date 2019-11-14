@@ -1,0 +1,25 @@
+/*
+
+fedcba
+fedcba
+fedcba
+fedcba
+fedcba
+*/
+
+
+class Pattern9 
+{
+	public static void main(String[] args) 
+	{
+		for(int row=5; row>=1; row--)
+		{
+			char ch='e';
+			for(int col=5; col>=1;col--)
+			{
+				System.out.print(ch--);
+			}
+			System.out.println();
+	}
+	}
+}

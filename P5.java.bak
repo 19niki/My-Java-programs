@@ -1,0 +1,15 @@
+class P5 
+{
+	public static void main(String[] args) 
+	{
+	     int n=9, m=2, res=1;
+		 do
+		 {
+			 res=res*n;
+			 m--;
+			 
+		 }
+		 while (m>0);
+		 System.out.println(res);
+	}
+}
